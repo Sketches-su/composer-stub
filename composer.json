@@ -1,0 +1,27 @@
+{
+    "name": "sketches/foo",
+    "type": "library",
+    "license": "Apache-2.0",
+    "description": "Description here",
+    "keywords": ["foo"],
+    "homepage": "https://github.com/Sketches-su/foo",
+    "authors": [
+        {
+            "name": "Sketches",
+            "email": "contact@sketches.su",
+            "homepage": "http://sketches.su/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {"Foo\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Foo\\": "tests/"}
+    }
+}

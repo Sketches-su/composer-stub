@@ -1,0 +1,8 @@
+title: Foo API documentation
+
+source: ./src
+
+destination: ./doc/api
+
+charset: UTF-8
+

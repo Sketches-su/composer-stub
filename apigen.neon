@@ -4,5 +4,5 @@ source: ./src
 
 destination: ./doc/api
 
-charset: UTF-8
+charset: [UTF-8]
 
